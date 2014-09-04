@@ -21,6 +21,7 @@
 		AF39659619B8A7370017A83B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF39657819B8A7370017A83B /* UIKit.framework */; };
 		AF39659E19B8A7370017A83B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF39659C19B8A7370017A83B /* InfoPlist.strings */; };
 		AF3965A019B8A7370017A83B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF39659F19B8A7370017A83B /* Git_TestTests.m */; };
+		AF3965AB19B8AA690017A83B /* DITest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3965AA19B8AA690017A83B /* DITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AF39659B19B8A7370017A83B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		AF39659D19B8A7370017A83B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF39659F19B8A7370017A83B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AF3965A919B8AA690017A83B /* DITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITest.h; sourceTree = "<group>"; };
+		AF3965AA19B8AA690017A83B /* DITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		AF39656819B8A7370017A83B = {
 			isa = PBXGroup;
 			children = (
+				AF3965A919B8AA690017A83B /* DITest.h */,
+				AF3965AA19B8AA690017A83B /* DITest.m */,
 				AF39657A19B8A7370017A83B /* Git Test */,
 				AF39659919B8A7370017A83B /* Git TestTests */,
 				AF39657319B8A7370017A83B /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3965AB19B8AA690017A83B /* DITest.m in Sources */,
 				AF39658119B8A7370017A83B /* main.m in Sources */,
 				AF39658B19B8A7370017A83B /* DIViewController.m in Sources */,
 				AF39658519B8A7370017A83B /* DIAppDelegate.m in Sources */,
